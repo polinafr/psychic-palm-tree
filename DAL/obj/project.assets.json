@@ -386,23 +386,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Polina\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\טליה ישראל\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Polina\\source\\repos\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\טליה ישראל\\Source\\Repos\\psychic-palm-tree\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\Polina\\source\\repos\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Polina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Polina\\source\\repos\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\טליה ישראל\\Source\\Repos\\psychic-palm-tree\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\טליה ישראל\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\טליה ישראל\\Source\\Repos\\psychic-palm-tree\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Polina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\טליה ישראל\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -417,8 +420,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Polina\\source\\repos\\BELayer\\BELayer.csproj": {
-              "projectPath": "C:\\Users\\Polina\\source\\repos\\BELayer\\BELayer.csproj"
+            "C:\\Users\\טליה ישראל\\Source\\Repos\\psychic-palm-tree\\BELayer\\BELayer.csproj": {
+              "projectPath": "C:\\Users\\טליה ישראל\\Source\\Repos\\psychic-palm-tree\\BELayer\\BELayer.csproj"
             }
           }
         }
@@ -456,7 +459,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

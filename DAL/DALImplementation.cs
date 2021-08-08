@@ -22,7 +22,7 @@ namespace DAL
         };
 
         IFirebaseClient client;
-        int x = 3;
+        
 
         public bool AddNewBucket(Bucket bucket)
         {
