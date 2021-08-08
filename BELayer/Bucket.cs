@@ -6,8 +6,15 @@ namespace BELayer
 {
     public class Bucket
     {
-        private List<Good> boughtList { get; }
-        private DateTime dateTime { get; }
-
+        private List<Good> boughtList;
+        private DateTime dateTime;
+        public DateTime GetDateTime()
+        {
+            return dateTime;
+        }
+        public List<Good> getBoughtList()
+        {
+            return boughtList;
+        }
     }
 }

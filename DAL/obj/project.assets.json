@@ -392,11 +392,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Polina\\source\\repos\\psychic-palm\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\Polina\\source\\repos\\psychic-palm\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Polina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\Polina\\source\\repos\\psychic-palm\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -417,8 +417,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\BELayer\\BELayer.csproj": {
-              "projectPath": "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\BELayer\\BELayer.csproj"
+            "C:\\Users\\Polina\\source\\repos\\psychic-palm\\BELayer\\BELayer.csproj": {
+              "projectPath": "C:\\Users\\Polina\\source\\repos\\psychic-palm\\BELayer\\BELayer.csproj"
             }
           }
         }

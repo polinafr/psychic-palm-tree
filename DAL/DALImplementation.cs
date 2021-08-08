@@ -14,7 +14,7 @@ namespace DAL
     public class DALImplementation : IDAL
     {
         private List<Good> catalog = new List<Good>();
-        private List<Bucket> shoppingLists = new List<Bucket>();
+        private Queue<Bucket> shoppingLists = new Queue<Bucket>(); //add reading from database
         IFirebaseConfig fcon = new FirebaseConfig()
         {
             AuthSecret = "ABAdEUajJeEWzBaQcr80vQnOQ5cbE95VGC6qFsi8",
@@ -43,7 +43,7 @@ namespace DAL
 
         public Queue<Bucket> GetPreviousBuckets()
         {
-            throw new NotImplementedException();
+             return shoppingLists;
         }
 
         public bool UpdateGood(Good good)
@@ -62,6 +62,20 @@ namespace DAL
             {
                 return false;
             }
+        }
+
+        public List<Bucket> GetShoppingListsFromTill(DateTime start, DateTime finish)
+        {
+            List<Bucket> requestedBuckets = new List<Bucket>();
+            //   Queue<Bucket> copy = shoppingLists;
+            for (int i=0; i<shoppingLists.Count; i++)
+            {
+                Bucket bucket = shoppingLists.Dequeue();
+                if (bucket.GetDateTime() > start && bucket.GetDateTime() < finish)
+                    requestedBuckets.Add(bucket);
+                shoppingLists.Enqueue(bucket);
+            }
+            return requestedBuckets;
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\BELayer\\BELayer.csproj": {}
+    "C:\\Users\\Polina\\source\\repos\\psychic-palm\\BELayer\\BELayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\BELayer\\BELayer.csproj": {
+    "C:\\Users\\Polina\\source\\repos\\psychic-palm\\BELayer\\BELayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\BELayer\\BELayer.csproj",
+        "projectUniqueName": "C:\\Users\\Polina\\source\\repos\\psychic-palm\\BELayer\\BELayer.csproj",
         "projectName": "BELayer",
-        "projectPath": "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\BELayer\\BELayer.csproj",
+        "projectPath": "C:\\Users\\Polina\\source\\repos\\psychic-palm\\BELayer\\BELayer.csproj",
         "packagesPath": "C:\\Users\\Polina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Polina\\Source\\Repos\\psychic-palm\\BELayer\\obj\\",
+        "outputPath": "C:\\Users\\Polina\\source\\repos\\psychic-palm\\BELayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
