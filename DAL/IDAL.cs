@@ -18,7 +18,8 @@ namespace DAL
         public bool AddNewGood(Good good);
         public bool AddNewBucket(Bucket bucket);
         public bool UpdateGood(Good good);
-        public bool EstablishDatabaseConnection();
+        //public bool EstablishDatabaseConnection();
+        public List<Good> GetShoppingListsFromTill(DateTime start, DateTime finish);
 
     }
 }
