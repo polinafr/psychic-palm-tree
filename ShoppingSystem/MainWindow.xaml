@@ -4,26 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShoppingSystem"
-        mc:Ignorable="d"
+            mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Menu x:Name="MainMenu" HorizontalAlignment="Left" Height="303.534" Margin="492.631,0,0,0" VerticalAlignment="Top" Width="300.702" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Panel.ZIndex="20">
-            <Menu.Background>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="1"/>
-                    <GradientStop Color="#FF97EE79" Offset="0.475"/>
-                </LinearGradientBrush>
-            </Menu.Background>
-            <MenuItem Header="קניות קודמות" Foreground="#FF090E5B" Height="100" Width="100" IsEnabled="False"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100"/>
-            <MenuItem Header="MenuItem" Height="100" Width="100" BorderBrush="#FF140808"/>
-        </Menu>
+    <Grid Background="#FF27EFD7" OpacityMask="#FF27EFD7">
+        <Button Content="סטטיסטיקות והמלצות" HorizontalAlignment="Left" Margin="42,333,0,0" VerticalAlignment="Top" Width="213" Height="43" FontSize="20" FontWeight="Bold"/>
+        <Button Content="קניה חדשה" HorizontalAlignment="Left" Margin="42,258,0,0" VerticalAlignment="Top" Width="213" Height="43" FontSize="22" FontWeight="Bold"/>
+        <Button Content="קניות קודמות" HorizontalAlignment="Left" Margin="42,185,0,0" VerticalAlignment="Top" Width="213" Height="43" FontSize="22" FontWeight="Bold"/>
+        <Button Content="עדכון מוצר" HorizontalAlignment="Left" Margin="42,114,0,0" VerticalAlignment="Top" Width="213" Height="43" FontSize="22" FontWeight="Bold"/>
+        <Button Content="הוספת מוצר" HorizontalAlignment="Left" Margin="42,41,0,0" VerticalAlignment="Top" Width="213" Height="43" FontSize="22" FontWeight="Bold"/>
 
     </Grid>
 </Window>
