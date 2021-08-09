@@ -31,8 +31,15 @@ namespace DAL
 
         public bool AddNewGood(Good good)
         {
-            //List<Good> catalog = GetCatalog();
-            throw new NotImplementedException();
+            try
+            {
+                var setter = client.Set("Goods/" + good.getID(), good);
+                return true; // assuming that adding the same item with throw exception
+            }
+            catch
+            {
+                return false;
+            }
 
         }
 
