@@ -26,13 +26,28 @@ namespace DAL
 
         public bool AddNewBucket(Bucket bucket)
         {
-            throw new NotImplementedException();
+            try
+            {
+                EstablishDatabaseConnection();
+                for (int y = 0; y < bucket.getBoughtList().Count; y++)
+                {
+                    var setter = client.Set("Buckets/" + bucket.GetDateTime() + '/' 
+                        + y.ToString() + '/' + bucket.getBoughtList()[y].getID(), 
+                        bucket.getBoughtList()[y]);
+                }
+                return true; // assuming that adding the same item with throw exception
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public bool AddNewGood(Good good)
         {
             try
             {
+                EstablishDatabaseConnection();
                 var setter = client.Set("Goods/" + good.getID(), good);
                 return true; // assuming that adding the same item with throw exception
             }
@@ -84,5 +99,7 @@ namespace DAL
             }
             return requestedBuckets;
         }
+
+
     }
 }

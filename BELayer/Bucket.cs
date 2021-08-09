@@ -6,6 +6,7 @@ namespace BELayer
 {
     public class Bucket
     {
+        //private String id;
         private List<Good> boughtList;
         private DateTime dateTime;
         public DateTime GetDateTime()

@@ -19,6 +19,6 @@ namespace DAL
         public bool AddNewBucket(Bucket bucket);
         public bool UpdateGood(Good good);
         public List<Bucket> GetShoppingListsFromTill(DateTime start, DateTime finish);
-
+        public List<Good> UnupdatedGoods();
     }
 }
